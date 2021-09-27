@@ -42,10 +42,10 @@ public class Main {
         this.sc = new Scanner(System.in);
 
         System.out.print("Zadej galony: ");
-        System.out.println(galToLi(sc.nextFloat()));
+        System.out.println(this.galToLi(sc.nextFloat()));
 
         System.out.print("Zadej svou váhu na zemi: ");
-        System.out.println(moonWeight(sc.nextFloat()));
+        System.out.println(this.moonWeight(sc.nextFloat()));
 
         System.out.print("Zadej poloměr kruhu: ");
         double[] result = this.perimAndArea(sc.nextDouble());
